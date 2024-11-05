@@ -9,14 +9,14 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Sen's 个人博客 # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Code changes the world ! # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://sengyongan.github.io/"
 
 github:
-  username: github_username # change to your GitHub username
+  username: sengyongan # change to your GitHub username
 
 twitter:
   username: twitter_username # change to your Twitter username
@@ -34,12 +34,12 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: senLongAn
+  email: 3252629901@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://github.com/sengyongan # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -95,10 +95,10 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn:
+cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avtar/profile.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -109,14 +109,14 @@ toc: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: utterances # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+    repo: sengyongan # <gh-username>/<repo>
+    issue_term: pathname # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
@@ -152,6 +152,9 @@ paginate: 10
 # The base URL of your site
 baseurl: ""
 
+
+
+#以下选项不建议修改########################################################################
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
